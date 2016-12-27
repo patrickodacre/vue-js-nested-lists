@@ -15,7 +15,7 @@
                         {{like.first_name}}
                     </div>
                     <div class="notes">
-                        <a :href="like.url">website</a>
+                        <a :href="like.URL">website</a>
                     </div>
                     <div class="rating">
                     </div>
