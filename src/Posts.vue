@@ -1,7 +1,8 @@
 <template>
     <div class="box">
+        <!-- iterate over our posts, passing each Post object to its own Post.vue component. -->
         <div class="card is-fullwidth" v-for="post in posts">
-            <Post :post="post"/>
+            <Post :post="post"/> <!-- pass the post object to the Post.vue component. -->
         </div>
     </div>
 </template>
@@ -20,7 +21,7 @@ export default {
     },
     created,
     components: {
-        Post
+        Post // our imported Post component must be wired up here on the Posts options object under the 'components' property.
     }
 
 }
@@ -39,18 +40,4 @@ function created() {
 
 <style>
 
-    .card-content {
-        padding: 10px;
-    }
-
-    .content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-flow: row wrap;
-    }
-
-    .card-header-title {
-        text-align: left;
-    }
 </style>

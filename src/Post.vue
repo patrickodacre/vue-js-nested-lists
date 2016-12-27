@@ -28,7 +28,7 @@ import axios from 'axios'
 
 export default {
     name: 'Post',
-    props: ['post'],
+    props: ['post'], // post comes from Posts.vue line 4.
     data() {
         return {
             likes: []
@@ -54,5 +54,18 @@ function getLikes(postID) {
 </script>
 
 <style>
-    
+    .card-content {
+        padding: 10px;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+
+    .card-header-title {
+        text-align: left;
+    }
 </style>
