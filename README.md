@@ -2,7 +2,7 @@
 
 This is the fixed version of the project found on the 'master' branch.
 
-For an explanation of this project, please visit my [Vue.js blog](http://patrickwho.me/vue-js-nested-list-iteration-and-async-data-loading).
+Full explanation here on my <a href="http://patrickwho.me/vue-js-nested-list-rendering/" target="_blank">Vue.js blog</a>.
 
 ## Branches
 
