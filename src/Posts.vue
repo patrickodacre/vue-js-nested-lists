@@ -48,7 +48,7 @@ function created() {
     // 1-1: Request posts from WordPress.com
     axios.get('https://public-api.wordpress.com/rest/v1.1/sites/stearns.wordpress.com/posts/')
         .then(( resp ) => {
-
+debugger
             // 1-2: Save posts array to our data object.
             this.posts = resp.data.posts
         })
