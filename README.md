@@ -1,12 +1,8 @@
-# Vue.js & Nested Lists
+# Vue.js & Nested Lists - FIXED
 
-While working on a project I stumbled on a problem with showing nested lists. I was trying to display a list of users and then on clicking a user name I wanted to display a list of their orders.
+This is the fixed version of the project found on the 'master' branch.
 
-The work was really just for a demonstration and I was just using a single component to show the data.
-
-Well, once I got to the part where I wanted to show the order data, I quickly realized what I was doing wasn't going to work. 
-
-Download / clone this repo to find out what was wrong.
+For an explanation of this project, please visit my [Vue.js blog](http://patrickwho.me/vue-js-nested-list-iteration-and-async-data-loading).
 
 ## Branches
 
