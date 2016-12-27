@@ -8,6 +8,8 @@ Well, once I got to the part where I wanted to show the order data, I quickly re
 
 Download / clone this repo to find out what was wrong.
 
+Full explanation here on my [Vue.js blog](http://patrickwho.me/vue-js-nested-list-iteration-and-async-data-loading).
+
 ## Branches
 
 master - the broken version demonstrating the problem
